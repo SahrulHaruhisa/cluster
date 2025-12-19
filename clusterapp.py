@@ -21,7 +21,7 @@ K_range = data['K_range']
 wcss = data['wcss']
 scaler = data['scaler']
 all_possible_risk_names = data.get('all_possible_risk_names', {})
-
+st.subheader("Analisis Klastering K-Means (Data Malaria)")
 # 3. Plot Elbow Method
 st.subheader("Elbow Method Plot")
 fig_elbow, ax_elbow = plt.subplots()
